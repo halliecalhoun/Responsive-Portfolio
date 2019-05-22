@@ -305,6 +305,8 @@ input[type=submit] {
     
       .logo {
           margin: 0 auto;
+          align-content: center;
+          height: 50%;
         
       }
       
@@ -317,9 +319,55 @@ input[type=submit] {
     @media (max-width: 768px) {
     /* Set the font-size to 45% */
     
+    .logo {
+        margin: 0 auto;
+        align-content: center;
+        height: 50%;
+      
+    }
+    
     }
     
     @media (max-width: 640px) {
       /* For the colorful background, look up setting a background-image to a linear gradient in css */
     
+    .logo {
+        margin: 0 auto;
+        align-content: center;
+        height: 50%;
+        align-self: center;
+        font-size: 75%;
+        padding: 5;
+      
+    }
+
+    #logo-text {
+        padding: 0;
+    }
+
+    .header-text{ 
+        margin: 0 auto;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    header.masthead {
+        margin: 0 auto;
+        align-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        vertical-align: middle;
+    }
+    }
+
+    nav {
+        float: none;
+        align-content: center;
+        text-align: center;
+    }
+
+    a {
+      margin-top: 25px;
+      text-align: center;  
     }
